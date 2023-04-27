@@ -49,7 +49,7 @@ print(myinfo)
 
 """ check if item exists in the dict ? """
 print(myinfo)
-print('Ali' in myinfo)  # in operator --> check if element exists in the dict keys
+print('Ali' in myinfo)  # in operator --> check if element exists in the dict keys ---> returns boolean value
 print('name' in myinfo)
 
 """ get dict keys, dict values , dict items"""
@@ -106,8 +106,12 @@ courses = {
 myinfo.update(courses)
 print(myinfo)
 
+print(myinfo['ai'][1])
 
 """ clear key, value pair ---> """
 # myinfo.clear()
+
+""" delete dic from memory ---> """
+del myinfo
 
 ###
